@@ -1,0 +1,41 @@
+/* Panier.css */
+
+.panier-container {
+  padding: 20px;
+  background-color: #f0f2f5; /* Couleur de fond douce */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.panier-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1890ff; /* Couleur de texte de l'Ant Design */
+}
+
+.panier-table {
+  margin-top: 20px;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: center;
+}
+
+.ant-btn-danger {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.ant-btn-danger:hover {
+  background-color: #ff7875;
+  border-color: #ff7875;
+}
+

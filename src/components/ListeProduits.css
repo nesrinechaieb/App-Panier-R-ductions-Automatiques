@@ -1,0 +1,56 @@
+/* ListeProduits.css */
+
+/* Conteneur principal des produits */
+.liste-produits-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Titre de la liste des produits */
+.liste-produits-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+/* Card pour les produits */
+.produit-card {
+  margin: 10px 0;
+}
+
+/* Style des images des produits */
+.produit-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px; /* Coins arrondis */
+  transition: transform 0.3s; /* Animation pour effet de zoom */
+}
+
+/* Effet de zoom sur les images au survol */
+.produit-card:hover img {
+  transform: scale(1.05); /* Effet de zoom sur hover */
+}
+
+/* Style du bouton Ajouter au Panier */
+.add-to-cart-button {
+  background-color: #1890ff; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none; /* Supprimer les bordures par défaut */
+  border-radius: 4px; /* Coins arrondis */
+  padding: 8px 16px; /* Espacement intérieur du bouton */
+  font-size: 16px; /* Taille de la police */
+  transition: background-color 0.3s, transform 0.3s; /* Transitions pour effet de survol */
+}
+
+/* Couleur du bouton au survol */
+.add-to-cart-button:hover {
+  background-color: #40a9ff; /* Couleur de fond au survol */
+  transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+/* Suppression du contour de focus pour le bouton */
+.add-to-cart-button:focus {
+  outline: none; /* Supprimer le contour de focus par défaut */
+}
